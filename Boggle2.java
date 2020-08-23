@@ -1,3 +1,5 @@
+package Algorithm_JAVA;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +16,7 @@ import java.io.InputStreamReader;
  */
 
 
-public class Main {
+public class Boggle2 {
     char[][] boggle;
     boolean[][][] visited;
     String word;
@@ -22,7 +24,7 @@ public class Main {
 	final int[] dy = {-1,0,1,1,-1, 1, 0,-1};
 
     public static void main(String[] args) throws IOException {
-        new Main().solution();
+        new Boggle2().solution();
     }
 
     public void solution() throws IOException{

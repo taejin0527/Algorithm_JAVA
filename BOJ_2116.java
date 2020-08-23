@@ -1,3 +1,4 @@
+package Algorithm_JAVA;
 /**
  * @FileName : DiceTower.java
  * @Project : ALGO
@@ -12,7 +13,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class BOJ_2116 {
 
     int numOfDice, total, maxTotal = 0;
     int[][] dices;
@@ -20,7 +21,7 @@ public class Main {
     
 
     public static void main(String[] args) {
-        new Main().solution();
+        new BOJ_2116().solution();
     }
 
     public void solution() {
